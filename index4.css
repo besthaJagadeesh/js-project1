@@ -1,0 +1,199 @@
+body{
+    background-color: #3D087B;
+}
+.time{
+    background-color: antiquewhite;
+    width: 25%;
+    display: flex;
+    height: 80px;
+    margin: 100px;
+    align-items: center;
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 0%;
+    border-radius: 10px;
+}
+
+
+.clock{
+   
+    background-image: url(./Clklogo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px; width: 200px;
+    display: inline-block;
+    position: relative; left: 10%;
+}
+.W{
+    background-image: url(./Wakeup.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px; width: 30px;
+    display: inline-block;
+    position: relative;left: 10px;
+    margin: 10px;
+   
+}
+.L{
+    background-image: url(./Dine.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px; width: 30px;
+    display: inline-block;
+    position: relative; left: 20%;
+    margin: 10px;
+
+}
+.N{
+    background-image: url(./Sleep.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px; width: 30px;
+    display: inline-block;
+    position: relative; left: 30%; 
+    margin: 10px;
+    
+}
+.boxparent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    margin: 300px;
+    margin-top: 10px;
+}
+.box{
+    border: 2px solid black;  border-radius: 6px;
+    width: 300px; height:100px;
+    position: absolute; top: 9%;
+    background-color:#8E53F0;
+    opacity: 0.1;
+   
+}
+.box1{
+    border: 2px solid black;  border-radius: 6px;
+    width: 400px; height: 100px;
+    position: absolute; top: 7%;
+    background-color:#FFFFFF;
+    opacity: 0.3;  
+}
+.box2{
+    border: 2px solid black;  border-radius: 6px;
+    width: 450px; height:100px;
+    position: absolute; top: 5%;
+    background-color: #FFFFFF; 
+}
+
+.classbox2{
+    display: flex;
+    justify-content: center; align-items: center;   
+}
+
+.b{
+    border: 2px solid #F6E2FF;
+   background-color: #F6E2FF;
+   height: 60px; width: 50px;
+   margin: 15px; display: flex; align-items: center;
+   font-size:larger; border-radius: 3px;
+   color: #8A11BF; text-align: center;
+   font-weight:bolder;
+}
+
+.semi{
+    font-size:x-large;
+}
+
+.AM{
+    border: 2px solid #F6E2FF;
+    background-color:#CB52F8;
+   height: 60px; width: 50px;
+   margin: 15px; display: flex; align-items: center; justify-content: center;
+   font-size:larger; border-radius: 3px;
+   color: #8A11BF; color: #FFFFFF;
+}
+
+.T{
+    color: #3D087B;
+    font-weight:bolder;
+}
+.clk{
+    background-color: azure;
+    height: 200px;
+    width: 400px;
+    margin: 100px;
+    margin-top: 200px;
+    display: flex;
+    padding-top: 10px;
+    border-radius: 10px;
+    
+}
+pre{
+    font-size: 20px;
+}
+.love{
+    border: 1px solid blue;
+    color: #8E53F0;
+    background-color: aqua;
+    width: 400px;
+    margin: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.hate{
+    margin: 100px;
+    margin-top: 20px;
+}
+.morningimage{
+    border: 2px solid;
+    background-image: url(./wakeup123.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 455px; height: 300px; 
+    position: absolute; top: 5%; left: 57%;
+}
+.afternoon{
+    border: 2px solid;
+    background-image: url(./GROUP.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 455px; height: 300px; 
+    position: absolute; top: 50%; left: 57%;
+}
+.evening{
+    border: 2px solid;
+    background-image: url(./GoodEvening.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 455px; height: 300px; 
+    position: absolute; top: 95%; left: 57%;
+
+}
+.goodnight{
+    border: 2px solid;
+    background-image: url(./BEd.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 455px; height: 300px; 
+    position: absolute; top: 140%; left: 57%;
+}
+.footer{
+    font-weight: bolder;
+    font-size: 2rem;
+    margin: 10px;
+    text-decoration: none;
+    position: relative;
+    top: 200px;
+    left: 0px;
+    color: aliceblue;
+}
+a{
+    color:blue;
+    border-radius: 10px;
+    text-decoration: none;
+    border:2px solid black;
+    background-color: #F25CFE;
+}
